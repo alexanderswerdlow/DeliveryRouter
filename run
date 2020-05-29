@@ -1,0 +1,1 @@
+emcc -O3 -std=c++17 main.cpp DeliveryPlanner.cpp DeliveryOptimizer.cpp PointToPointRouter.cpp StreetMap.cpp --preload-file data -o hello.html && emrun --no_browser --port 8080 .
